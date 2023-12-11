@@ -1,0 +1,51 @@
+@fontePrincipal: 'Roboto', sans-serif;
+@corDoFundo: cadetblue;
+@corDoTexto: rgba(247, 244, 248, 0.933);
+@corDoBotao:  rgb(213, 156, 236);
+
+body {
+    background-color: @corDoFundo;    
+}
+
+.container {
+    color: @corDoTexto;
+    font-family: @fontePrincipal;
+    max-width: 960px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.form-nome {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 16px;    
+}
+
+button {
+    cursor: pointer;
+    padding: 8px;
+    background-color: @corDoBotao;
+    font-size: 1em;
+    font-weight: bold;
+    color: @corDoTexto;
+    border: none;
+}
+
+.agradecimento {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 16px;
+    margin: 16px;
+    display: none;
+    
+    span {
+        font-weight: bold;
+        font-size: 1.5em;
+        display: block;
+    }
+}
